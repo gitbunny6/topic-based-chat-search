@@ -1,0 +1,25 @@
+# Private chats and personal data
+backend/data/
+*.txt
+*.zip
+
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated vector indexes
+vector_store/
+
+# macOS
+.DS_Store

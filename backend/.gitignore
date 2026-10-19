@@ -1,0 +1,22 @@
+# Private chat exports and personal data
+backend/data/
+*.txt
+*.zip
+
+# Python environment and cache
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Generated vector indexes
+vector_store/
